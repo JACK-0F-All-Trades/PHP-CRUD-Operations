@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    display: block;
+    font-size: 26px;
+    padding: 2px;
+    border: 2px solid silver;
+}
+label{
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+form input:last-child{
+    width: 100%;
+    background-color: lightgreen;
+    margin-top: 10px;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+form input:last-child:hover{
+    background-color: rgb(125, 215, 125);
+    
+}
+
